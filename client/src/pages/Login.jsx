@@ -34,7 +34,7 @@ export default function Login() {
               event.preventDefault();
               try {
                 const response = await axios.post(
-                  "https://two-recipe-book-unified-mentor.onrender.com/auth/login",
+                  "https://recipe-book-gha2.onrender.com/auth/login",
                   {
                     username: userName,
                     password,
